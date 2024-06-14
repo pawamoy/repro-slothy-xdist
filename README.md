@@ -7,5 +7,5 @@ uv venv
 uv pip install -r requirements.txt
 . .venv/bin/activate
 PYTHONPATH=. pytest tests --dist no  # OK
-PYTHONPATH=. pytest tests -n auto  # NOT OK
+PYTHONPATH=. pytest tests -n auto  # STILL OK BUT SHOULDN'T, WORKING ON REPRO
 ```
