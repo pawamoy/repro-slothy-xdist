@@ -1,0 +1,3 @@
+slothy
+pytest
+pytest-xdist
